@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Devyn Bagley
+# DATE: 10/5/2025
+# BRIEF DESCRIPTION:  An application that prompts the user if the want to convert to Fahrenheit or Celcius, then converts the temperature based on their response.
 
 
 
@@ -17,7 +17,25 @@
 
 
 
+def main():
+    print('=' * 5, 'Temerature Converter', '=' * 5)
+    print()
+    print(' 1. Convert from Celcius to Fahrenheit')
+    print(' 2. Convert from Fahrenheit to Celcius')
+    print()
+    def converter():
+        conversion = input('Please choose from the above menu: ')
+        temperature = int(input('Enter a temperature to convert: '))
+        c_to_f = float(temperature * 9/5 +32)
+        f_to_c = float((temperature - 32) * 5/9)
+        
+        if conversion == ('1'):
+            print(f'{temperature} degrees Celcius is {c_to_f} degrees Fahrenheit.')
 
+        else:
+            print(f'{temperature} degrees Fharenheit is {f_to_c} degrees Celcius.')
+    converter()
+main()
 
 
 
@@ -93,7 +111,7 @@ Enter a temperature to convert: -40
 
 1. What is one lesson you learned in this lab?
 
-
+A lesson I learned in this lab is the order that your write your code is imperative for your program to run correctly.
 
 
 
