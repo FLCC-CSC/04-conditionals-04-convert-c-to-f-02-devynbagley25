@@ -20,8 +20,8 @@
 def main():
     print('=' * 5, 'Temperature Converter', '=' * 5)
     print()
-    print(' 1. Convert from Celcius to Fahrenheit')
-    print(' 2. Convert from Fahrenheit to Celcius')
+    print(' 1. Convert from Celsius to Fahrenheit')
+    print(' 2. Convert from Fahrenheit to Celsius')
     print()
     def converter():
         conversion = input('Please choose from the above menu: ')
@@ -30,10 +30,10 @@ def main():
         f_to_c = float((temperature - 32) * 5/9)
         
         if conversion == ('1'):
-            print(f'{temperature} degrees Celcius is {c_to_f} degrees Fahrenheit.')
+            print(f'{temperature} degrees Celsius is {c_to_f} degrees Fahrenheit.')
 
         else:
-            print(f'{temperature} degrees Fharenheit is {f_to_c} degrees Celcius.')
+            print(f'{temperature} degrees Fharenheit is {f_to_c} degrees Celsius.')
     converter()
 main()
 
