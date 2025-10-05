@@ -18,7 +18,7 @@
 
 
 def main():
-    print('=' * 5, 'Temerature Converter', '=' * 5)
+    print('=' * 5, 'Temperature Converter', '=' * 5)
     print()
     print(' 1. Convert from Celcius to Fahrenheit')
     print(' 2. Convert from Fahrenheit to Celcius')
