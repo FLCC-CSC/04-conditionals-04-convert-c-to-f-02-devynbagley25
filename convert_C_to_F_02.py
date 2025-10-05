@@ -20,8 +20,8 @@
 def main():
     print('=' * 5, 'Temperature Converter', '=' * 5)
     print()
-    print(' 1. Convert from Celsius to Fahrenheit')
-    print(' 2. Convert from Fahrenheit to Celsius')
+    print('  1. Convert from Celsius to Fahrenheit')
+    print('  2. Convert from Fahrenheit to Celsius')
     print()
     def converter():
         conversion = input('Please choose from the above menu: ')
