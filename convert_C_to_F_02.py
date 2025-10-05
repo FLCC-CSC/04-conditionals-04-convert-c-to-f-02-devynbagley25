@@ -25,7 +25,7 @@ def main():
     print()
     def converter():
         conversion = input('Please choose from the above menu: ')
-        temperature = int(input('Enter a temperature to convert: '))
+        temperature = float(input('Enter a temperature to convert: '))
         c_to_f = float(temperature * 9/5 +32)
         f_to_c = float((temperature - 32) * 5/9)
         
