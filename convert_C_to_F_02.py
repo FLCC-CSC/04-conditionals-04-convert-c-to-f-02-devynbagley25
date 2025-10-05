@@ -33,7 +33,7 @@ def main():
             print(f'{temperature} degrees Celsius is {c_to_f} degrees Fahrenheit.')
 
         else:
-            print(f'{temperature} degrees Fharenheit is {f_to_c} degrees Celsius.')
+            print(f'{temperature} degrees Fahrenheit is {f_to_c} degrees Celsius.')
     converter()
 main()
 
